@@ -1,11 +1,40 @@
-# ibmdbpy-notebooks
+# Demo notebooks for ibmdbpy using IBM Db2 Warehouse
 
-Demos, advanced analytics in dashDB using ibmdbPy and IPython Notebooks.
+In this folder, you find Jupyter notebooks showcasing ibmdbpy, an open-source package for in-database analytics, in interaction with IBM Db2 Warehouse.
 
-Ibmdbpy is an open-source project developed at IBM. Ibmdbpy provides a Python interface for data manipulation and in-database algorithms in IBM dashDB/DB2 and accelerates Python Analytics by seamlessly pushing operations written in Python into the underlying database for execution to benefit from in-database performance-enhancing features such as columnar store and parallel processing.
+Ibmdbpy is an open-source project developed by IBM. It provides a pandas-like Python interface for data handling and efficient in-database analytics. By seamlessly pushing operations written in Python into the underlying database for execution, it benefits from in-database performance-enhancing features such as columnar storage and parallel processing. The use of in-database algorithms and stored procedures from IBM Db2 Warehouse through ibmdbpy enables you to accelerates Python analytics.
 
-These IPython notebooks provide useful examples that you can use as a tutorial to get started with ibmdbPy. You can visualize the rendered IPython notebooks [here](http://nbviewer.ipython.org/github/ibmdbanalytics/ibmdbpy-notebooks/) or download the repository and execute `ipython notebook` from your terminal.
+The Jupyter notebooks provided in this folder contain useful tutorials and use cases to get you started with ibmdbpy. 
 
-The ibmdbPy source code is available on [GitHub](https://github.com/ibmdbanalytics/ibmdbpy) and [PyPI](https://pypi.python.org/pypi/ibmdbpy). 
+The ibmdbpy source code is available on [GitHub](https://github.com/ibmdbanalytics/ibmdbpy) and [PyPI](https://pypi.org/project/ibmdbpy/).
 
-Please visit the [ibmdbPy documentation](http://pythonhosted.org/ibmdbpy/) for more information.
+Please visit the [ibmdbpy documentation](https://pythonhosted.org/ibmdbpy/start.html) for more information.
+
+
+
+__Contents__
+
+* Getting started with ibmdbpy basic concepts:
+
+![Basics](GettingStarted/ibmdbpy_GettingStarted_1-basics.ipynb)
+
+* Getting started with ibmdbpy geospatial extension: 
+
+![GeoBasics](GettingStarted/ibmdbpy_GettingStarted_2-geo_basics.ipynb)
+
+![Extensive Guide](GettingStarted/ibmdbpy_GettingStarted_3-geo_guide.ipynb)
+    
+* Ibmdbpy in practice: 
+        
+![Preprocessing](MuseumsUsecase/ibmdbpy_Museums_DataAnalysis_1-preprocessing.ipynb)
+
+![Geospatial recommendation](MuseumsUsecase/ibmdbpy_Museums_DataAnalysis_2-geospatial.ipynb)
+
+* Machine learning with ibmdbpy: 
+        
+![Association Rules Mining](MachineLearning/ibmdbpy_AssociationRulesMining.ipynb) 
+
+![Naïve Bayes ](MachineLearning/ibmdbpy_NaiveBayes.ipynb)
+        
+* More examples in the ![BasicNotebooks](BasicNotebooks) folder.
+       
